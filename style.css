@@ -1,0 +1,79 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	background-color: lightskyblue;
+}
+.container{
+	position: relative;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 20px;
+
+	background-color: transparent;
+	border: 2px solid;
+	border-radius: 10px;
+}
+.header{
+	background-color: grey;
+
+}
+h1{
+	text-align: center;
+	color: orange;
+}
+.form-box{
+	padding: 30px;
+	background-color: white ;
+}
+.form-box label{
+	font-weight: bold;
+	font-size: 18px;
+	/*padding-bottom: 29px;*/
+}
+.gender{
+	background-color: white;
+	border-radius: 20px;
+}
+
+.form-box .input, input{
+	margin-bottom: 20px;
+	padding: 5px 70px 5px 40px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 2px 5px 5px 0px grey;
+
+}
+
+.form-box select{
+	margin-bottom: 20px;
+	padding: 5px 70px 5px 40px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 2px 5px 5px 0px grey;
+}
+
+.buttons{
+	margin-left:150px;
+}
+
+.buttons button{
+	padding: 7px 15px 7px 15px;
+	font-size: 15px;
+	margin: 20px;
+	border-radius: 25px;
+	border-color: red;
+	color: white;
+	background-color: black;
+	border-image-outset: none;
+}
+.login{
+	margin-top: 100px;
+}
+
+.user-password, .buttons{
+	margin-left: 200px;
+}
